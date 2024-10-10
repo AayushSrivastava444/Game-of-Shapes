@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+.Shape{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.Shape2{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    font-weight: 100%;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    rotate: 45deg;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+.Shape3{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    font-weight: 100px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    
+    
+    
+}
+
+h2{
+    rotate: -45deg;
+    font-weight: normal;
+    font-size: x-large;
+}
+
+h1{
+    font-weight: normal;
+    font-size: x-large;
+}
+
+h3{
+    font-weight: normal;
+    font-size: x-large;
+}
+
+.Shape3:hover{
+    background-color: green;
+}
+
+.Shape2:hover{
+    background-color: blue;
+}
+
+.Shape:hover{
+    background-color: red;
+}
+
